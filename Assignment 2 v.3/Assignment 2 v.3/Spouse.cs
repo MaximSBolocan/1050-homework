@@ -6,14 +6,26 @@ namespace Assignment_2_v._3
     {
         public int Age;
         public string FirstName;
-        public static int Count = 1;
+        static int SpouseCount = 0;
+        static int TotalSpouseAge = 0;
+        public Family Status = new Family();
         public void SpouseData()
         {
-            System.Console.WriteLine("please enter Spouse  " + Count + " First  Name  ");
+            SpouseCount++;
+            System.Console.WriteLine("please enter Spouse   First  Name  ");
             FirstName = System.Console.ReadLine();
-            System.Console.WriteLine(" please enter Spouse " + Count + " Age ");
+            System.Console.WriteLine(" please enter Spouse  Age ");
             Age = int.Parse(System.Console.ReadLine());
             System.Console.WriteLine(this.FirstName + " " + Age);
+            TotalSpouseAge += Age;
+        }// here we came after answering 'true " to the answer from Family.Answer()
+        public int SpouseAge()
+        {
+            return TotalSpouseAge;
+        }
+        public int TotalSpouseCount()
+        {
+            return SpouseCount;
         }
     }
 }
