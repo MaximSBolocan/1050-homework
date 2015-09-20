@@ -4,3 +4,6 @@ C:\Users\m\Desktop\IT\Visual Studio\Assignment 2 v.3\Assignment 2 v.3\bin\Debug\
 C:\Users\m\Desktop\IT\Visual Studio\Assignment 2 v.3\Assignment 2 v.3\obj\Debug\Assignment 2 v.3.csprojResolveAssemblyReference.cache
 C:\Users\m\Desktop\IT\Visual Studio\Assignment 2 v.3\Assignment 2 v.3\obj\Debug\Assignment 2 v.3.exe
 C:\Users\m\Desktop\IT\Visual Studio\Assignment 2 v.3\Assignment 2 v.3\obj\Debug\Assignment 2 v.3.pdb
+C:\Users\m\Desktop\1050-homework\Assignment 2 v.3\Assignment 2 v.3\bin\Debug\Assignment 2 v.3.exe.config
+C:\Users\m\Desktop\1050-homework\Assignment 2 v.3\Assignment 2 v.3\obj\Debug\Assignment 2 v.3.exe
+C:\Users\m\Desktop\1050-homework\Assignment 2 v.3\Assignment 2 v.3\obj\Debug\Assignment 2 v.3.pdb
