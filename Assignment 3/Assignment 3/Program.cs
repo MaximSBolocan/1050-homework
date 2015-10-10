@@ -25,8 +25,8 @@ namespace Assignment_3
             joe.PrintNameGradeTeacher();
             matt.PrintNameGradeTeacher();
             //////////////////////////////////////////////////
-            johnh.PrintTeacherInformation();
-            mike.PrintTeacherInformation();
+            //johnh.PrintTeacherInformation();
+            //mike.PrintTeacherInformation();
             System.Console.WriteLine("press any key to end.. ");
             System.Console.ReadKey();
 

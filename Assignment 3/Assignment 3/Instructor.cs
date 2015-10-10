@@ -8,8 +8,8 @@ namespace Assignment_3
 {
     class Instructor
     {
-        public string Name;
-       public string CourseName;
+        public string Name { get; set; }
+        public string CourseName { get; set; }
 
          public Instructor (string name,string coursename)
         {

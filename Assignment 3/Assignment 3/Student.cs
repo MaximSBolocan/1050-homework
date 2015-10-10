@@ -5,7 +5,7 @@ namespace Assignment_3
     class Student
     {
         private string Name;
-        public int Grade=0;
+        public int Grade  {get;set;}
         private Instructor Teacher;
         
          
