@@ -19,22 +19,22 @@
             
             System.Console.WriteLine("please enter show time (matine or evening )");
             ShowTime = System.Console.ReadLine();                        
-            System.Console.WriteLine("enter nuber of children:");
+            System.Console.WriteLine("enter nuber of children: ");
             NuberOfChildren = int.Parse(System.Console.ReadLine());
-            System.Console.WriteLine("enter number of adults :");
+            System.Console.WriteLine("enter number of adults : ");
             NumberOFAdults= int.Parse(System.Console.ReadLine());
             System.Console.WriteLine("enter number of seniors :");
             NumberOfSeniors= int.Parse(System.Console.ReadLine());
             
-            System.Console.WriteLine("enter number of popcorn:");
+            System.Console.WriteLine("enter nr of popcorn:     ");
             NumberOfPopcorn = int.Parse(System.Console.ReadLine());
-            System.Console.WriteLine("enter number of hotdog :");
+            System.Console.WriteLine("enter nr of hotdog:      ");
             NumberOfHotddog = int.Parse(System.Console.ReadLine());
-            System.Console.WriteLine("enter number of large soda");
+            System.Console.WriteLine("enter nr of large soda:  ");
             NumberOfLargesoda = int.Parse(System.Console.ReadLine());
-            System.Console.WriteLine("ente nr of small soda");
+            System.Console.WriteLine("enter nr of small soda:  ");
             NumberOfSmallSoda = int.Parse(System.Console.ReadLine());
-            System.Console.WriteLine("enter the number of candy:");
+            System.Console.WriteLine("enter nr of candy:       ");
             NumberOfCandy = int.Parse(System.Console.ReadLine());
             ///////////////////////////////////////////////////////////
             TotalNumOfPeople = NumberOFAdults + NumberOfSeniors + NuberOfChildren;
@@ -132,8 +132,8 @@
             {
                 TotalExpences += NumberOfCandy * 1.99;
             }
-            TotalExpences = TotalExpences + (NumberOfHotddog * 3.99);           
-            System.Console.WriteLine("totalexpences: " + " " + TotalExpences);
+            TotalExpences = TotalExpences + (NumberOfHotddog * 3.99)+(NumberOfSmallSoda*3.5);           
+            System.Console.WriteLine("total expences: " + " " + TotalExpences);
             System.Console.WriteLine("press any key to continue..");
             System.Console.ReadKey();
             
