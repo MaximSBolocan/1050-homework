@@ -32,6 +32,11 @@ namespace Assignment_5
                 StudentList[i].StudentInformation();
 
             }
+            foreach (Student student in StudentList)
+            {
+                student.Print();
+            }
+
         }
     }
 }

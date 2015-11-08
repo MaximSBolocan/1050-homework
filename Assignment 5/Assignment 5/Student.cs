@@ -20,8 +20,11 @@ namespace Assignment_5
             studentNumber = Question.AskForInteger("enter student number   :");
             StudentName = studentName;
             SNumber = studentNumber;
-             
-
+         }
+        public  void Print()
+        {
+            System.Console.WriteLine(StudentName+" "+SNumber);
+           
         }
     }
 }
