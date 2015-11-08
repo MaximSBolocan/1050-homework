@@ -1,0 +1,6 @@
+C:\Users\m\Desktop\IT\Visual Studio\Assignment 5\Assignment 5\bin\Debug\Assignment 5.exe.config
+C:\Users\m\Desktop\IT\Visual Studio\Assignment 5\Assignment 5\bin\Debug\Assignment 5.exe
+C:\Users\m\Desktop\IT\Visual Studio\Assignment 5\Assignment 5\bin\Debug\Assignment 5.pdb
+C:\Users\m\Desktop\IT\Visual Studio\Assignment 5\Assignment 5\obj\Debug\Assignment 5.csprojResolveAssemblyReference.cache
+C:\Users\m\Desktop\IT\Visual Studio\Assignment 5\Assignment 5\obj\Debug\Assignment 5.exe
+C:\Users\m\Desktop\IT\Visual Studio\Assignment 5\Assignment 5\obj\Debug\Assignment 5.pdb
