@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace Assignment_5
 {
@@ -10,23 +6,17 @@ namespace Assignment_5
     {
         static void Main(string[] args)
         {
-            string Answer1;
-            string Answer2;
-
+            string Answer1;            
             Course SaveCourse;
-            
             Answer1 =Question.SceenQuestion("create a new course?     :");
-            
-            while (Answer1.ToLower().StartsWith("y"))
+             while (Answer1.ToLower().StartsWith("y"))
             {
                 Course _course = new Course();
                 _course.CourseCreation();
                 _course.CreationOfStudent();
                 SaveCourse = _course;
-                Answer1 = Question.SceenQuestion("do you whant to create a new course/fix a mistake?");
-            }
-           
-            
+                Answer1 = Question.SceenQuestion("do you whant to create a new course or fix a mistake?");
+            }           
             System.Console.WriteLine("press any key");
             System.Console.ReadKey();
         }
