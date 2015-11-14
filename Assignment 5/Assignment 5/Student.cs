@@ -11,15 +11,14 @@ namespace Assignment_5
         {
             string studentName;
             int studentNumber;
-            studentName=Question.SceenQuestion("enter student name       :");
+            studentName=Question.AskForString("enter student name       :");
             studentNumber = Question.AskForInteger("enter student number   :");
             StudentName = studentName;
             SNumber = studentNumber;
          }
         public  void Print()
         {
-            System.Console.WriteLine(StudentName+" "+SNumber);
-           
+            System.Console.WriteLine(StudentName+" "+SNumber);           
         }
     }
 }

@@ -11,7 +11,7 @@ namespace Assignment_5
         {
             string courseName;
             int courseNumber; ;
-            courseName = Question.SceenQuestion("what is you course name?     :");
+            courseName = Question.AskForString("what is you course name?     :");
             courseNumber = Question.AskForInteger("what is you course number? :");
             CourseName = courseName;
             CRNNumber = courseNumber;
@@ -25,13 +25,11 @@ namespace Assignment_5
             {
                 StudentList[i] = new Student();
                 StudentList[i].StudentInformation();
-
             }
             foreach (Student student in StudentList)
             {
                 student.Print();
             }
-
         }
     }
 }
