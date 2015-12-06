@@ -1,0 +1,6 @@
+C:\Users\m\Desktop\IT\Visual Studio\Final Assignment\Final Assignment\bin\Debug\Final Assignment.exe.config
+C:\Users\m\Desktop\IT\Visual Studio\Final Assignment\Final Assignment\bin\Debug\Final Assignment.exe
+C:\Users\m\Desktop\IT\Visual Studio\Final Assignment\Final Assignment\bin\Debug\Final Assignment.pdb
+C:\Users\m\Desktop\IT\Visual Studio\Final Assignment\Final Assignment\obj\Debug\Final Assignment.csprojResolveAssemblyReference.cache
+C:\Users\m\Desktop\IT\Visual Studio\Final Assignment\Final Assignment\obj\Debug\Final Assignment.exe
+C:\Users\m\Desktop\IT\Visual Studio\Final Assignment\Final Assignment\obj\Debug\Final Assignment.pdb
